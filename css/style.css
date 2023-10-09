@@ -1,0 +1,268 @@
+body{
+    background-color: rgba(13, 14, 14 );
+}
+
+
+
+
+
+
+
+.div1{
+    width: 25%;
+    height: 12vh ;  
+    background-color: aquamarine;
+    background: -webkit-linear-gradient( top,rgb(12, 12, 12),rgb(47, 38, 24));
+    animation-name: change1 ;
+    animation-duration: 5s;
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation-timing-function: linear;
+    
+    animation-iteration-count: infinite;
+
+} 
+
+/* .div1:hover{
+    animation-play-state: paused;
+} */
+ @keyframes change1{
+    0%{
+       
+        left: 0;
+    }
+    50%{
+        left: 75%;
+    }
+    100%{
+        left: 0;
+    }
+ }
+
+ /* ///////////////////////////////////////////////////////// */
+ .div2{
+    width: 25%;
+    height: 12vh ;  
+    
+    background: -webkit-linear-gradient( top,rgb(47, 38, 24),rgb(110, 69, 11));
+    animation-name: change2 ;
+    animation-duration: 5s;
+    position: absolute;
+    top: 12vh;
+    left: 75%;
+    animation-timing-function: linear;
+    animation-delay: 5s;
+    animation-iteration-count: infinite;
+
+} 
+
+/* .div2:hover{
+    animation-play-state: paused;
+} */
+ @keyframes change2{
+   0%{
+        left: 75%;
+    }
+    50%{
+        left: 0%;
+    }
+    100%{
+        left: 75%;
+    }
+ }
+/* //////////////////////////////////////////////////////// */
+.div3{
+    width: 25%;
+    height: 12vh ;  
+    background: -webkit-linear-gradient( top,rgb(108, 72, 4),rgb(82, 0, 0));
+    animation-name: change3 ;
+    animation-duration: 5s;
+    position: absolute;
+    top:24vh;
+    left: 0;
+    animation-timing-function: linear;
+    animation-delay: 10s;
+    animation-iteration-count: infinite;
+    
+
+} 
+
+/* .div3:hover{
+    animation-play-state: paused;
+} */
+ @keyframes change3{
+    0%{
+        left: 0;
+    }
+    50%{
+        left: 75%;
+    }
+    100%{
+        left: 0;
+    }
+ }
+
+ /* ////////////////////////////////////////////////////////////////////// */
+ .div4{
+    width: 25%;
+    height: 12vh ;  
+    
+    background: -webkit-linear-gradient( top,rgb(103, 3, 3),rgb(255, 119, 0));
+    animation-name: change4 ;
+    animation-duration: 5s;
+    position: absolute;
+    top: 36vh;
+    left: 75%;
+    animation-timing-function: linear;
+    animation-delay: 15s;
+    animation-iteration-count: infinite;
+    /* animation-fill-mode: both; */
+
+} 
+
+/* .div4:hover{
+    animation-play-state: paused;
+} */
+ @keyframes change4{
+    0%{
+        left: 75%;
+    }
+    50%{
+        left: 0%;
+    }
+    100%{
+        left: 75%;
+    }
+ }
+
+ /* //////////////////////////////////////////////////////////////////////// */
+ .div5{
+    width: 25%;
+    height: 12vh ;  
+    background: -webkit-linear-gradient( top,orange,red);
+    animation-name: change5 ;
+    animation-duration: 5s;
+    position: absolute;
+    top:48vh;
+    left: 0;
+    animation-timing-function: linear;
+    animation-delay: 20s;
+    animation-iteration-count: infinite;
+    
+
+} 
+
+/* .div5:hover{
+    animation-play-state: paused;
+} */
+ @keyframes change5{
+    0%{
+       
+        left: 0;
+    }
+    50%{
+        left: 75%;
+    }
+    100%{
+        left: 0;
+    }
+ }
+
+ /* /////////////////////////////////////////////////////////////////////////////////////////////////////// */
+ .div6{
+    width: 25%;
+    height: 12vh ;  
+    
+    background: -webkit-linear-gradient( top,rgb(29, 5, 114),rgb(58, 87, 231));
+    animation-name: change6 ;
+    animation-duration: 5s;
+    position: absolute;
+    top: 60vh;
+    left: 75%;
+    animation-timing-function: linear;
+    animation-delay: 25s;
+    animation-iteration-count: infinite;
+    /* animation-fill-mode: both; */
+
+} 
+
+/* .div6:hover{
+    animation-play-state: paused;
+} */
+ @keyframes change6{
+    0%{
+        left: 75%;
+    }
+    50%{
+        left: 0%;
+    }
+    100%{
+        left: 75%;
+    }
+ }
+/* /////////////////////////////////////////////////////////////////////////// */
+.div7{
+    width: 25%;
+    height: 12vh ;  
+    background: -webkit-linear-gradient( top,rgb(55, 148, 187),rgb(141, 215, 242));
+    animation-name: change7 ;
+    animation-duration: 5s;
+    position: absolute;
+    top:72vh;
+    left: 0;
+    animation-timing-function: linear;
+    animation-delay: 30s;
+    animation-iteration-count: infinite;
+    
+
+} 
+
+/* .div7:hover{
+    animation-play-state: paused;
+} */
+ @keyframes change7{
+    0%{
+       
+        left: 0;
+    }
+    50%{
+        left: 75%;
+    }
+    100%{
+        left: 0;
+    }
+ }
+
+ /* /////////////////////////////////////////////////////////// */
+ .div8{
+    width: 25%;
+    height: 12vh ;  
+    
+    background: -webkit-linear-gradient( top,rgb(215, 173, 81),rgb(222, 98, 4));
+    animation-name: change8 ;
+    animation-duration: 5s;
+    position: absolute;
+    top: 84vh;
+    left: 75%;
+    animation-timing-function: linear;
+    animation-delay: 35s;
+    animation-iteration-count: infinite;
+    /* animation-fill-mode: both; */
+
+} 
+
+/* .div8:hover{
+    animation-play-state: paused;
+} */
+ @keyframes change8{
+    0%{
+        left: 75%;
+    }
+    50%{
+        left: 0%;
+    }
+    100%{
+        left: 75%;
+    }
+ }
